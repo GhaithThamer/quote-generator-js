@@ -6,7 +6,16 @@ html {
 
 body{
     margin: 0;
-    /*min-height: 100vh;*/
+    min-height: 100vh;
     background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#divMainContainer{
+    padding: 20px 100px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid black;
+    border-radius: 7px;
+}
