@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
     <link rel="icon" type="image/png" href="">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -15,18 +17,20 @@
     <div id="divMainContainer">
         
         <div id="divQuote">
-            What you are is what you have been. What you will be is what you do now.
+            <span  style=" font-size: 6rem; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">"</span>
+            <span id="spanQuote">What you are is what you have been. What you will be is what you do now.</span>
         </div>
-        <div id="divAuther">
+        <div id="divAuthor">
             me
         </div>
         <div id="divButtons">
-            <button>tweet
-                <!-- <i class="fa-brands fa-twitter"></i> -->
+            <button id="buttonTweet">tweet
+                <i class="fa-brands fa-twitter"></i>
             </button>
-            <button>next quote</button>
+            <button id="buttonNextQuote">next quote</button>
         </div>
         
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
